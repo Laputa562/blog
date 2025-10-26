@@ -6,7 +6,7 @@ html.light .post-item {
     align-items: first baseline;
     background-color: #dad6b8;
     margin-bottom: 24px;
-    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
     padding: 16px;
     border-radius: 20px;
     transition: transform 0.3s ease-in-out; // Add the transition
@@ -42,10 +42,10 @@ html.dark .post-item {
     display: flex;
     flex-direction: column;
     align-items: first baseline;
-    background-color: #092468;
+    background-color: #11294d;
     color: $dark-white;
     margin-bottom: 24px;
-    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
     padding: 16px;
     border-radius: 20px;
     transition: transform 0.3s ease-in-out; // Add the transition
