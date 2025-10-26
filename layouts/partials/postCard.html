@@ -1,4 +1,3 @@
-<div class="hover-helper">
 <article class="post-item">
     <h4 class="post-item-title">
         {{ .Title }}
@@ -16,5 +15,8 @@
         {{ time.Format $configDateFormat .Date }}
         {{/* OLD FORMAT: .Date.Format $configDateFormat */}}
     </time>
+    <p class="shorten">
+      {{ .Summary }}
+    <a href="{{ .RelPermalink }}">Read more</a>
+    </p>
 </article>
-</div>

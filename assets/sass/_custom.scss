@@ -1,21 +1,82 @@
-html.dark .hover-helper {
-    width: 800px; height:80px;
-    background:rgb(255, 255, 255);
+html.light .post-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: $black;
+    align-items: first baseline;
+    background-color: #dad6b8;
+    margin-bottom: 24px;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out; // Add the transition
+    }
+html.light .post-item-title{
+    font-size: x-large;
+    color: $black;
+
+}
+html.light .post-item:hover {
+    transform: scale(1.04);
 }
 
-html.dark .hover-helper .post-item {
-    display: flex;
-    background-color: #092468;
-    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.1);
-    padding: 34px;
-    border-radius: 14px;
-    height: 6px;
-    margin-right: 2px;
-    transition: margin 0.2s ease-in-out; // Add the transition
-    }
-html.dark .hover-helper:hover .post-item {
-    margin-top: -6px;
+html.light .shorten{
+    overflow-wrap: anywhere;
+    color: $black;
+    word-break: normal;
+    hyphens: auto;
+    color: $dark-white;
+    margin-top: 8px;
+    color: $dark-white;
+    font-size: 0.95rem;
+    line-height: 1.5;
 }
-html.dark .post-summary {
-    margin-left: 6px;
+
+
+
+
+
+
+html.dark .post-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    background-color: #092468;
+    color: $dark-white;
+    margin-bottom: 24px;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out; // Add the transition
+    }
+html.dark .post-item:hover {
+    transform: scale(1.04);
+}
+html.dark .shorten{
+    overflow-wrap: anywhere;
+    word-break: normal;
+    hyphens: auto;
+    color: $dark-white;
+    margin-top: 8px;
+    color: $dark-white;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+html.dark .shorten:hover{
+        color: #ffffff;
+}
+
+html.light .post-item-title{
+    font-size: x-large;
+}
+html.dark .post-item-title{
+    font-size: x-large;
+}
+
+html.dark .posts-item-note{
+    font-size: x-large;
+}
+html.light .posts-item-note{
+    font-size: x-large;
 }
