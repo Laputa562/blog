@@ -1,0 +1,21 @@
+html.dark .hover-helper {
+    width: 800px; height:80px;
+    background:rgb(255, 255, 255);
+}
+
+html.dark .hover-helper .post-item {
+    display: flex;
+    background-color: #092468;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.1);
+    padding: 34px;
+    border-radius: 14px;
+    height: 6px;
+    margin-right: 2px;
+    transition: margin 0.2s ease-in-out; // Add the transition
+    }
+html.dark .hover-helper:hover .post-item {
+    margin-top: -6px;
+}
+html.dark .post-summary {
+    margin-left: 6px;
+}

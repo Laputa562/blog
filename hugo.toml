@@ -1,5 +1,5 @@
 title = "Haderax's blog"
-baseURL = 'https://hba.sid.one/'
+baseURL = 'https://haderax.tech'
 
 # This is what goes in <html lang="">
 languageCode = 'en-us'
@@ -101,7 +101,7 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
   # By default (or if nothing is specified), summary is used.
 
 [Languages.en-gb.params.author]
-  
+  avatar = "avatar.png"
   intro = "Haderax's blog"
   name = "Shako K."
   description = "A place where i'll share bits of my life, hobbies and interests, be it tech, such as selfhosting, OSS and linux, or various forms of media such as books, movies, videogames, shows and music; or history."
@@ -109,7 +109,7 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
 
 # Allow to override webmanifest options
 [Languages.en-gb.params.webmanifest]
-  name = "Haderax's blog" # will use "params.sitename" or "title" by default
+  name = "Haderax" # will use "params.sitename" or "title" by default
   short_name = "Haderax" # same as name
   start_url = "/" # will use homepage url by default
   theme_color = "#2d3b46" # default is "#434648" (base color of text). Also will override html `<meta name="theme-color" />`
