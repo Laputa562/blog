@@ -9,7 +9,7 @@ html.light .post-item {
     box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
     padding: 16px;
     border-radius: 20px;
-    transition: transform 0.3s ease-in-out; // Add the transition
+    transition: transform 0.3s ease-in-out;
     }
 html.light .post-item-title{
     font-size: x-large;
@@ -48,10 +48,13 @@ html.dark .post-item {
     box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
     padding: 16px;
     border-radius: 20px;
-    transition: transform 0.3s ease-in-out; // Add the transition
+    border: 2px ridge transparent;
+    transition: transform 0.2s ease-in-out,
+    border-color 0.2s ease;
     }
 html.dark .post-item:hover {
     transform: scale(1.04);
+    border-color: rgb(2, 109, 197);
 }
 html.dark .shorten{
     overflow-wrap: anywhere;
@@ -80,3 +83,4 @@ html.dark .posts-item-note{
 html.light .posts-item-note{
     font-size: x-large;
 }
+

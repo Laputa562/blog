@@ -68,11 +68,6 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
     url = '/posts/'
     weight = 20
   [[Languages.en-gb.menu.main]]
-    pageRef="about"
-    name = 'About'
-    url = '/about/'
-    weight = 30
-  [[Languages.en-gb.menu.main]]
     pageRef="RSS"
     name="RSS"
     url = '/index.xml/'
