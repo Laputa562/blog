@@ -9,7 +9,9 @@ html.light .post-item {
     box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
     padding: 16px;
     border-radius: 20px;
-    transition: transform 0.3s ease-in-out;
+    border: 2px solid;
+    transition: transform 0.2s ease-in-out,
+    border-color 0.2s ease;
     }
 html.light .post-item-title{
     font-size: x-large;
@@ -18,6 +20,8 @@ html.light .post-item-title{
 }
 html.light .post-item:hover {
     transform: scale(1.04);
+    border-color: rgb(54, 54, 54);
+
 }
 
 html.light .shorten{
@@ -84,3 +88,6 @@ html.light .posts-item-note{
     font-size: x-large;
 }
 
+html.dark .navbar{
+    
+    }
